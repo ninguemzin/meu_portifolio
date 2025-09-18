@@ -1,5 +1,5 @@
 function ContactMe() {
-  return <p>ContactMe</p>;
+  return <p></p>;
 }
 
 export default ContactMe;

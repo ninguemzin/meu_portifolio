@@ -1,17 +1,17 @@
 import Home from "./components/Home";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div className="min-h-[80vh]">
+    <div className="font-sans bg-white text-gray-800">
+      <Header />
+      <main className="container mx-auto px-6">
         <Home />
-      </div>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

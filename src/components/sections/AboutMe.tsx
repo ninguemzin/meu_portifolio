@@ -1,5 +1,5 @@
 function AboutMe() {
-  return <p>AboutMe</p>;
+  return <p></p>;
 }
 
 export default AboutMe;
