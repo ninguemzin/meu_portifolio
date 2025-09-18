@@ -21,6 +21,7 @@ module.exports = {
         "raw", // 🗃️ dados/config
       ],
     ],
-    "subject-case": [0], // permite usar emojis e frases livres no assunto
+    "subject-case": [0, "never", []], // permite emojis e letras maiúsculas/minúsculas
+    "header-max-length": [0, "always", 100], // opcional: permite headers maiores
   },
 };
