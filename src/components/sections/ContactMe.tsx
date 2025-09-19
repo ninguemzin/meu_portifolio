@@ -8,13 +8,12 @@ export default function ContactMe() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // Validação simples
+
     if (!name.trim() || !email.trim() || !message.trim()) {
       setStatus("error");
       return;
     }
 
-    // Mock de envio — aqui você chamaria sua API
     setTimeout(() => {
       setStatus("success");
       setName("");

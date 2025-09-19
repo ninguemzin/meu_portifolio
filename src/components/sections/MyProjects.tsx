@@ -32,7 +32,7 @@ const projects: Project[] = [
 
 export default function MyProjects() {
   return (
-    <section className="py-12">
+    <section id="projects" className="py-12">
       <div className="container mx-auto px-4">
         <h3 className="text-2xl font-bold mb-6 text-center">Meus Projetos</h3>
 

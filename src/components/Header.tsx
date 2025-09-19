@@ -43,7 +43,7 @@ export default function Header() {
             isOpen
               ? "top-full opacity-100 rounded-md shadow-lg"
               : "-top-[110%] opacity-0"
-          }`}
+          } md:opacity-100 md:top-0`}
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6 p-4 md:p-0">
             <li>

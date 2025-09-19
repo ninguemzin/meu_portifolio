@@ -11,7 +11,7 @@ import MySqlIcon from "../../assets/mysql.svg";
 
 export default function AboutMe() {
   return (
-    <section className="py-12">
+    <section id="about" className="py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-12">
           <div className="flex-shrink-0 w-40 h-40 sm:w-48 sm:h-48 md:w-60 md:h-60">
