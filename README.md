@@ -43,3 +43,15 @@ npm install
 # Rode o projeto em modo de desenvolvimento
 npm run dev
 ```
+
+## 🔍 Testando responsividade
+
+- Abra o navegador em http://localhost:5173 (padrão do Vite) e use as ferramentas de desenvolvedor (F12) -> Toggle device toolbar para alternar entre tamanhos de tela.
+
+- Se estiver no Windows e receber erro ao executar `npm` devido à política do PowerShell, abra o PowerShell como Administrador e execute:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Isso permite executar scripts npm localmente sem alterar políticas do sistema inteiro.

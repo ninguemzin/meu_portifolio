@@ -1,0 +1,54 @@
+@keyframes liquidBorder {
+  0% {
+    clip-path: polygon(
+      50% 0%,
+      80% 10%,
+      100% 50%,
+      90% 85%,
+      50% 100%,
+      15% 85%,
+      0% 50%,
+      20% 10%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      50% 5%,
+      85% 15%,
+      100% 50%,
+      85% 90%,
+      50% 95%,
+      10% 80%,
+      0% 50%,
+      15% 15%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      50% 0%,
+      80% 10%,
+      100% 50%,
+      90% 85%,
+      50% 100%,
+      15% 85%,
+      0% 50%,
+      20% 10%
+    );
+  }
+}
+
+.animated-border {
+  animation: liquidBorder 6s ease-in-out infinite alternate;
+}
+
+.animated-border {
+  border-radius: 9999px;
+  display: block;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .animated-border {
+    animation-duration: 10s;
+  }
+}
